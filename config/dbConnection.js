@@ -1,6 +1,6 @@
 const mysql=require('mysql');
-
-module.exports=function(){
+//funcao requer mysql
+module.exports=function(){ 
     return mysql.createConnection({
         host:'localhost',
         user:'root',
@@ -9,3 +9,4 @@ module.exports=function(){
 
     });
 }
+//exporta funcao e puxa o myslq para busca de dados de host usuario senha e database

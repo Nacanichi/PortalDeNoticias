@@ -4,3 +4,5 @@ module.exports=function(app){
         res.render('home/index.ejs');
     });
 }
+//exporta o modulo e funcao app
+//busca modulo visual no diretorio /home/index.ejs
